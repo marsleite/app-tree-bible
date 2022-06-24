@@ -1,6 +1,6 @@
 package com.biblia.app.tree.entity
 
-import com.biblia.app.tree.enum.UserRole
+import com.biblia.app.tree.type.UserRole
 import javax.persistence.*
 
 @Entity

@@ -1,4 +1,4 @@
-package com.biblia.app.tree.enum
+package com.biblia.app.tree.type
 
 enum class UserRole {
     NORMAL,

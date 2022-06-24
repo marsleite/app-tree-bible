@@ -39,6 +39,16 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.security:spring-security-test")
+	testImplementation("io.mockk:mockk:1.10.0")
+	testImplementation("com.ninja-squad:springmockk:1.1.2")
+	testImplementation("io.projectreactor:reactor-test:3.3.8.RELEASE")
+	testImplementation("org.junit.jupiter:junit-jupiter-api:5.5.2")
+	testImplementation("com.winterbe:expekt:0.2.0")
+
+	testImplementation("com.h2database:h2:1.3.164")
+
+	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.5.2")
+	testImplementation("org.assertj:assertj-core:3.20.2")
 }
 
 tasks.withType<KotlinCompile> {
